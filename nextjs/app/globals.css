@@ -444,10 +444,10 @@
   .about-title {
     font-family: var(--font-serif);
     font-weight: 400;
-    font-size: clamp(36px, 5.4vw, 64px);
-    line-height: 1.05;
-    letter-spacing: -0.025em;
-    margin: 0 0 12px;
+    font-size: clamp(28px, 4vw, 44px);
+    line-height: 1.1;
+    letter-spacing: -0.02em;
+    margin: 0 0 56px;
   }
   .about-subtitle {
     font-family: var(--font-serif);
@@ -474,9 +474,9 @@
     font-family: var(--font-serif);
     font-style: italic;
     font-weight: 400;
-    font-size: clamp(28px, 3.5vw, 44px);
+    font-size: clamp(18px, 1.8vw, 22px);
     line-height: 1;
-    letter-spacing: -0.01em;
+    letter-spacing: -0.005em;
   }
   .about-sign small {
     display: block;
@@ -490,7 +490,7 @@
   }
   @media (max-width: 720px) {
     .about-subtitle { margin-bottom: 28px; }
-    .about-sign { font-size: 28px; margin-top: 28px; }
+    .about-sign { font-size: 18px; margin-top: 28px; }
   }
 
   .testimonials {
@@ -588,7 +588,7 @@
     display: flex;
     gap: 16px;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
     margin-top: 48px;
   }
 
